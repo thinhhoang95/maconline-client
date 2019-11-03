@@ -1,1 +1,1 @@
-export const host = 'http://localhost:2007';
+export const host = 'http://103.7.41.173:2007';

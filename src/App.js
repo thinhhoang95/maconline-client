@@ -8,6 +8,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Moderator from './Moderator/Moderator';
 import Referee from './Referee/Referee';
+import Team from './Team/Team';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
             <Route path='/display' component={Moderator} exact />
             <Route path='/referee' component={Referee} exact />
+            <Route path='/team' component={Team} exact />
 
           </div>
     </BrowserRouter>
